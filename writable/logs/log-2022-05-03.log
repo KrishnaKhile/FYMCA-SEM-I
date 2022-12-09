@@ -1,0 +1,51 @@
+CRITICAL - 2022-05-03 02:02:40 --> Undefined array key "transactionid"
+#0 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 50)
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-03 02:03:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-03 02:03:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 02:42:33 --> syntax error, unexpected token "}"
+#0 D:\XAMPP\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 02:43:07 --> syntax error, unexpected token "return"
+#0 D:\XAMPP\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 02:44:01 --> Undefined array key "transactionid"
+#0 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 50)
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 02:46:08 --> syntax error, unexpected token "echo", expecting "function" or "const"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,489 @@
+CRITICAL - 2022-05-05 02:32:59 --> Undefined variable $totalTime
+#0 D:\XAMPP\htdocs\mywork\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 40)
+#1 D:\XAMPP\htdocs\mywork\system\Debug\Toolbar.php(501): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\mywork\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 D:\XAMPP\htdocs\mywork\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 D:\XAMPP\htdocs\mywork\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 02:50:04 --> syntax error, unexpected token "else", expecting end of file
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(81): view('adminview/newor...', Array)
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 02:50:32 --> syntax error, unexpected token "echo", expecting ":"
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(81): view('adminview/newor...', Array)
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-05 02:51:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'status="preparation" where transactionid= 1' at line 1
+CRITICAL - 2022-05-05 02:51:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'status="preparation" where transactionid= 1' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(40): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(61): App\Models\adminmodel->updatenew(Array, '1')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 02:53:05 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(81): view('adminview/newor...', Array)
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-05 03:01:35 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-05-05 03:01:35 --> Unknown column 'neworder' in 'where clause'
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('neworder')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder', '1')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 03:02:09 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-05-05 03:02:09 --> Unknown column 'neworder' in 'where clause'
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('neworder')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder', '1')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 05:16:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#3 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-05 05:17:43 --> syntax error, unexpected token ";"
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 05:18:30 --> syntax error, unexpected token ";"
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 05:19:06 --> syntax error, unexpected token ";"
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 05:42:40 --> Undefined variable $tran
+#0 D:\XAMPP\htdocs\mywork\app\Views\adminview\preparation.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 56)
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 11:37:54 --> Undefined variable $transactionid
+#0 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 27)
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 11:38:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#3 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-05 11:39:39 --> Undefined variable $tran
+#0 D:\XAMPP\htdocs\mywork\app\Views\adminview\preparation.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 153)
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...', Array)
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 11:39:53 --> Undefined variable $tran
+#0 D:\XAMPP\htdocs\mywork\app\Views\adminview\preparation.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 153)
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...', Array)
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('1')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 11:40:53 --> Too few arguments to function App\Controllers\admin\ad::preparation(), 0 passed in D:\XAMPP\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-05 11:40:53 --> Too few arguments to function App\Controllers\admin\ad::preparation(), 0 passed in D:\XAMPP\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-05 11:41:50 --> Too few arguments to function App\Controllers\admin\ad::preparation(), 0 passed in D:\XAMPP\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation()
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-05 11:43:09 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-05-05 11:43:09 --> Unknown column 'neworder' in 'where clause'
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('neworder')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('neworder', '1')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 11:43:15 --> Unknown column 'invoice' in 'where clause'
+CRITICAL - 2022-05-05 11:43:15 --> Unknown column 'invoice' in 'where clause'
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('invoice')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('invoice')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 11:49:28 --> Undefined property: stdClass::$ordredqty
+#0 D:\XAMPP\htdocs\mywork\app\Views\adminview\preparation.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 208)
+#1 D:\XAMPP\htdocs\mywork\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/prepa...', Array, true)
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(28): view('adminview/prepa...', Array)
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('1')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 11:54:10 --> Invalid file: adminview/index/1.php
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminview/index...')
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/index...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/index...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 11:54:13 --> Invalid file: adminview/index/1.php
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminview/index...')
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/index...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/index...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 11:54:20 --> Invalid file: adminview/index/1.php
+#0 D:\XAMPP\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminview/index...')
+#1 D:\XAMPP\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/index...', Array, true)
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/index...')
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index('1')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-05 11:59:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 11:59:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:00:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:00:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:01:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:01:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:01:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:01:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:01:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:01:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:02:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:02:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:03:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:03:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:03:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:03:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:03:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:03:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:03:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:03:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:04:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:04:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-05 12:04:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-05-05 12:04:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 D:\XAMPP\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 D:\XAMPP\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 D:\XAMPP\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('bootstrap.bundl...')
+#6 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 23:23:34 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:23:34 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:23:44 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:24:32 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/prepar...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/prepar...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:24:36 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/prepar...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/prepar...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:26:27 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/prepar...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/prepar...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:31:19 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:31:54 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:34:29 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:34:57 --> syntax error, unexpected token "private"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:36:09 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:36:40 --> syntax error, unexpected token "public"
+#0 D:\XAMPP\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/ad/neword...')
+#1 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/ad/neword...')
+#2 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 23:44:35 --> You must set the database table to be used with your query.
+#0 D:\XAMPP\htdocs\mywork\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\XAMPP\htdocs\mywork\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\XAMPP\htdocs\mywork\app\Controllers\admin\ad.php(27): CodeIgniter\Model->__call('getpew', Array)
+#3 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->preparation('2')
+#4 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 D:\XAMPP\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
